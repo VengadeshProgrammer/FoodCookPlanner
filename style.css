@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+header p
+{
+   padding: 20px;
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.3rem;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7 !important;
+}
+section
+{
+    padding: 20px;
+    width: fit-content;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#input
+{
+    padding: 5px 10px;
+    outline: none;
+    background-color: ghostwhite;
+}
+#input-button
+{
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.input-container
+{
+ width: 600px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ background-color: #fff;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ padding: 20px;
+}
+li
+{
+    text-transform: capitalize;
+}
+#response
+{
+    margin-top: 10px;
+    text-align: center;
+}
+.food-container
+{
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 50px;
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    list-style-type: none;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.food-item
+{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+main
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+main .alert
+{
+   color: white;
+   background-color: rgb(25, 135, 84);
+   border-left: 5px solid green;
+}
+.food-item:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: #0d6efd;
+    font-weight: bold;
+}
+.alert 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alert button
+{
+    background: transparent;
+    border: none;
+    color: #FFF;
+}
+.del-icon
+{
+    border:none;
+    background: transparent;
+}
+.food-item
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.food-item:hover  .del-icon
+{
+    color: white;
+}
+@keyframes removeItem {
+    100%
+    {
+    width:0;
+    opacity: 0;
+    background-color: rgb(221, 7, 7);
+    overflow: hidden;
+    }
+}
+.food-item.onRemove
+{
+   animation: removeItem .5s ease 1 forwards ;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header span a
+{
+    color: #fff;
+    text-decoration: none;
+}
+#nothing_banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#nothing_image
+{
+    opacity: .5;
+    height: 300px;
+}
+#nothing_banner span
+{
+    margin-top: 10px;
+    font-size: 24px;
+    color: gray;
+}
+article
+{
+    width: 600px;
+    background-color: #fff;
+    position: relative;
+}
+#foodStatistics
+{
+    font-weight: 800;
+    border-radius: 5px 5px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}

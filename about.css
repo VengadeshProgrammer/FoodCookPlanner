@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+header p
+{
+   padding: 20px;
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.3rem;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7 !important;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section
+{
+    padding: 20px;
+    width: fit-content;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+table, td, th
+{
+    padding: 10px;
+}
+td, th
+{
+    border: 1px solid #000;
+}
+table
+{
+    border-collapse: collapse;
+}
+th
+{
+    text-align: start;
+    background-color: rgb(13, 110, 253);
+    color: #fff;
+}
+h2
+{
+    padding-left: 50px;
+}
+span a
+{
+    color: #fff;
+    text-decoration: none;
+}
+tr.active
+{
+    background-color: rgb(13, 110, 253);
+    color: #fff;
+}
+tr.active  a
+{
+    color: #fff;
+}
+.donate
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0;
+}
+.donate #input
+{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+}
+.donate input[type="submit"]
+{
+    border: none;
+    background-color: rgb(13, 110, 253);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.donate input[type="submit"]:hover
+{
+    cursor: pointer;
+}

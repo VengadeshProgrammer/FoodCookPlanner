@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+main
+{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header p
+{
+   padding: 20px;
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.3rem;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header span a
+{
+    color: #fff;
+    text-decoration: none;
+}
+#form
+{
+    background-color: #fff;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#form #userName
+{
+    width: 100%;
+    padding: 10px;
+}
+#form #email
+{
+    width: 100%;
+    padding: 10px;
+}
+#form #textArea
+{
+    width: 100%;
+    padding: 10px;
+}
+#form label[for="terms"]
+{
+    width: 100%;
+    padding: 10px;
+    text-align: start;
+}
+#form #radios
+{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 0 20px
+}
+#form #submit
+{
+    border: none;
+    background-color: #0d6efd;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    width: 100%;
+}
+.join 
+{
+    text-align: center;
+    padding-top: 50px;
+    background-color: white;
+}
